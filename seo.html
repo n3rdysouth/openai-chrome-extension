@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>OpenAI SEO</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.1/font/bootstrap-icons.min.css" rel="stylesheet">
+</head>
+<body>
+<div class="popup-container">
+    <div style="width: 300px;">
+        <h5 class="card-title">OpenAI Integration</h5>
+        <div class="card-body">
+            <p>This tool will generate a meta description for the current page, based on the content on the page.</p>
+            <button id="generateMeta" class="btn btn-primary">Generate Meta Description</button>
+            <div class="mt-3">
+                <label for="metaDescription" class="form-label">Generated Meta Description:</label>
+                <textarea class="form-control" id="metaDescription" rows="5" readonly placeholder="The meta description will be shown here..."></textarea>
+                <button id="copyMeta" class="btn btn-primary mt-2">Copy to Clipboard</button>
+            </div>
+        </div>
+        <footer class="footer">
+            <div class="container">
+                <div class="row justify-content-between">
+                    <div class="col-xs-3">
+                        <a href="popup.html" class="btn btn-outline-primary">Chat</a>
+                    </div>
+                    <div class="col-xs-3">
+                        <a href="seo.html" class="btn btn-outline-primary">SEO</a>
+                    </div>
+                    <div class="col-xs-3">
+                        <a href="setup.html" class="btn btn-outline-primary">API Key</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+</div>
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="seo.js"></script>
+</body>
+</html>

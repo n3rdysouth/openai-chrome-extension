@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "OpenAI Chat Integration",
+  "version": "1.0",
+  "description": "Send prompts to OpenAI and display the response in a side panel.",
+  "permissions": ["activeTab", "storage", "scripting"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icon.png",
+      "48": "icon.png",
+      "128": "icon.png"
+    }
+  }
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>OpenAI Chat</title>
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+<div class="popup-container container">
+  <div style="width: 300px;">
+
+    <h5 class="card-title">OpenAI Integration</h5>
+    <ul class="nav nav-tabs" id="myTab" role="tablist">
+      <li class="nav-item" role="presentation">
+        <a class="nav-link active" id="input-tab" data-toggle="tab" href="#inputArea" role="tab" aria-controls="input" aria-selected="true">Input</a>
+      </li>
+      <li class="nav-item" role="presentation">
+        <a class="nav-link" id="response-tab" data-toggle="tab" href="#responseArea" role="tab" aria-controls="response" aria-selected="false">Response</a>
+      </li>
+    </ul>
+    <div class="tab-content" id="myTabContent">
+      <div class="tab-pane fade show active" id="inputArea" role="tabpanel" aria-labelledby="input-tab">
+        <div class="card-body">
+          <div class="mb-3">
+            <label for="prompt" class="form-label">Prompt:</label>
+            <textarea class="form-control" id="prompt" rows="5" placeholder="Enter your prompt here..."></textarea>
+          </div>
+          <button id="send" class="btn btn-primary">Send to OpenAI</button>
+        </div>
+      </div>
+      <div class="tab-pane fade" id="responseArea" role="tabpanel" aria-labelledby="response-tab">
+        <div class="card-body">
+          <label for="response" class="form-label">Response:</label>
+          <textarea class="form-control" id="response" rows="5" readonly placeholder="The response will be shown here..."></textarea>
+          <button id="copyResponse" class="btn btn-primary mt-2">Copy to Clipboard</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <footer class="footer">
+    <div class="container">
+      <div class="row justify-content-between">
+        <div class="col-xs-3">
+          <a href="popup.html" class="btn btn-outline-primary">Chat</a>
+        </div>
+        <div class="col-xs-3">
+          <a href="seo.html" class="btn btn-outline-primary">SEO</a>
+        </div>
+        <div class="col-xs-3">
+          <a href="setup.html" class="btn btn-outline-primary">API Key</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</div>
+
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="popup.js"></script>
+</body>
+</html>
