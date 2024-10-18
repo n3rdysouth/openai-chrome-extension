@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "OpenAI Chat Integration",
+  "name": "OpenAI Chrome Extension",
   "version": "1.0",
-  "description": "Send prompts to OpenAI and display the response in a side panel.",
+  "description": "Send prompts to OpenAI and display the response, or generate meta descriptions for web pages in a single click.",
   "permissions": ["activeTab", "storage", "scripting"],
   "background": {
     "service_worker": "background.js"
