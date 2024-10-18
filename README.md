@@ -1,6 +1,6 @@
 # OpenAI Chrome Extension
 
-This Chrome Extension allows you to quickly send chat prompts to ChatGPT on any webpage and copy the generated responses to your clipboard. Additionally, it can generate meta descriptions for any page you are on.
+This Chrome Extension allows you to quickly send chat prompts to ChatGPT on any webpage and copy the generated responses to your clipboard for use. Additionally, it can generate meta descriptions for any web page you are currently on (it uses the content of the current page). This is a free and open source extension that uses your OpenAI account. If you do not have an OpenAI account, please create one first at https://platform.openai.com
 
 ## Features
 
@@ -15,12 +15,13 @@ This Chrome Extension allows you to quickly send chat prompts to ChatGPT on any 
 3. Enable Developer Mode by toggling the switch in the upper right corner.
 4. Click on "Load unpacked" and select the directory where you cloned or extracted the extension.
 5. The extension should now be installed and visible in your Chrome toolbar.
+6. Generate an API key at https://platform.openai.com/organization/api-keys to use during the extension setup.
 
 ## Usage
 
 1. Click on the extension icon in the Chrome toolbar to open the popup.
-2. Enter a chat prompt or click on the "Generate Meta Description" button.
-3. Copy the generated response or meta description to your clipboard by clicking the appropriate button.
+2. Enter a chat prompt or click "SEO" and the "Generate Meta Description" button to use.
+3. Copy the generated response to your clipboard by clicking the "Copy to Clipboard" button.
 
 ## Feedback
 
