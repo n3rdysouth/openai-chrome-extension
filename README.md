@@ -24,6 +24,6 @@ This Chrome Extension allows you to quickly send chat prompts to ChatGPT on any 
 
 ## Feedback
 
-If you have any feedback, suggestions, or issues with the extension, please feel free to open an issue in this repository or reach out to the developers directly.
+If you have any feedback, suggestions, or issues with the extension, please feel free to open an issue in this repository. If you are interested in contributing and helping to improve the functionality and use of this plugin, please reach out to me.
 
 Thank you for using our OpenAI Chrome Extension!
