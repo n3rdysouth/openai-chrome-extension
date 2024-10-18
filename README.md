@@ -33,6 +33,6 @@ We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.
 
 ## Credits
 
-Created and maintained by [@n3rdysouth](https://github.com/n3rdysouth).
+Created and maintained by [@n3rdysouth](https://github.com/n3rdysouth). Contributions will be added here when they happen :)
 
 Thank you for using our OpenAI Chrome Extension!
